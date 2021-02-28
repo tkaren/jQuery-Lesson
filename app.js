@@ -69,5 +69,7 @@
 // });
 
 $(function(){
-    $('button').on
-})
+    $('button').on('click', function(){
+        $('ul').children().css('color','red');
+    });
+});
